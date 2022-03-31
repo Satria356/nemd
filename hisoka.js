@@ -474,7 +474,43 @@ Selama ${clockString(new Date - user.afkTime)}
                 user.afkReason = text
                 m.reply(`${m.pushName} Telah Afk${text ? ': ' + text : ''}`)
             }
-            break	
+            break
+case 'gc': case 'grup': {
+
+                anu = `
+
+                *Info Gc*     
+
+📚 *Ayo : Join Gc gw* 
+
+https://chat.whatsapp.com/HoA34yrBsNRAhZH4TKxqhp
+
+🌱 Haloo Nyari apaan?
+
+Gc Gwejh`
+
+                let button = [{
+
+                                urlButton: {
+
+                                    displayText: 'gc gwejh jngn lupa gabung🌹',
+
+                                    url: 'https://chat.whatsapp.com/HoA34yrBsNRAhZH4TKxqhp'
+
+break
+
+}
+
+            break
+
+             case 'kontol': {
+
+                m.reply('Jngn Toxic Kontol')
+
+            }
+
+            break
+	
         case 'ttc': case 'ttt': case 'tictactoe': {
             let TicTacToe = require("./lib/tictactoe")
             this.game = this.game ? this.game : {}
